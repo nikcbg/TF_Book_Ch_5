@@ -1,6 +1,6 @@
 # Existing IAM user example
 
-This is example Terraform code that goal is to practice using the `terraform import` command to import IAM user that already exists in your AWS account.  
+This is example Terraform code that is using the `terraform import` command to import IAM user that already exists in your AWS account.  
 
 -----------------------------------------------------------------------------------------------------------------------
 ### List of files in the repository:
