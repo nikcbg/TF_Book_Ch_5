@@ -54,8 +54,8 @@ User with name existing_user already exists.
 
 ```
 aws_iam_user.existing_user: Import complete!
-  Imported aws_iam_user (ID: existing_use)
-aws_iam_user.existing_user: Refreshing state... (ID: existing_use)
+  Imported aws_iam_user (ID: existing_user)
+aws_iam_user.existing_user: Refreshing state... (ID: existing_user)
 
 Import successful!
 
