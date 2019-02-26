@@ -23,5 +23,9 @@
 
 ------------------------------------------------------------------------------------------------------------------
 
+#### Configuration code that creates three new unique IAM users in AWS 
+                    
+4. [oops-and-if-statements/live/global/three-iam-users-increment-name](https://github.com/nikcbg/TF_Book_Ch_5/tree/master/loops-and-if-statements/live/global/three-iam-users-increment-name) - Terraform configuration code that creates three unique new IAM users in AWS and gives full access to one of them to CloudWatch if default value set to `true`. 
 
+------------------------------------------------------------------------------------------------------------------
 
