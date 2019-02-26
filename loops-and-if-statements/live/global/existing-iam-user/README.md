@@ -1,6 +1,6 @@
 # Existing IAM user example
 
-This is example Terraform code that creates an IAM user in AWS if none already exist. The goal of this example is to practice using the `terraform import` to import IAM user that already exists in your AWS account.  
+This is example Terraform code that goal is to practice using the `terraform import` command to import IAM user that already exists in your AWS account.  
 
 -----------------------------------------------------------------------------------------------------------------------
 ### List of files in the repository:
@@ -36,7 +36,7 @@ resource "aws_iam_user" "existing_user" {
 - execute `terraform init` - to initialize the provider and download the neccesery plugins.
 - execute terraform plan - to create execution plan for changes to be applied, the output should diplay the following:
 - execute `terraform apply` - to apply the desired changes, the output should diplay the following:
-  - you supose to get an error because the user already exists:
+  - you suppose to get an error because the user already exists:
 
 ```
 Error: Error applying plan:
