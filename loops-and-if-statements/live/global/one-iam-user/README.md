@@ -20,7 +20,7 @@ export AWS_SECRET_ACCESS_KEY="your secret access key here"
    
 - clone the repository to your local computer: `git clone https://github.com/nikcbg/TF_Book_Ch_5`.
 - go into the cloned repo on your computer: `cd TF_Book_Ch_5`.
-- go into the subfolder which is this example `cd loops-and-if-statements/live/global/existing-iam-use`.
+- go into the subfolder which is this example `cd loops-and-if-statements/live/global/one-iam-user`.
 
 ------------------------------------------------------------------------------------------------------------------
 ### Commands needed to create IAM user in AWS.
