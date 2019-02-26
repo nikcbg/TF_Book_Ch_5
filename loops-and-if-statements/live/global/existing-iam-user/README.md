@@ -49,7 +49,7 @@ Error: Error applying plan:
         status code: 409, request id: 9dfd2662-39c3-11e9-b34f-056f8d6936da
 ```
 - youo need to use `import` command to import the existing user:
-- execute `terraform import aws_iam_user.existing_user existing_use` - to import the existing user, output should diplay the following:
+- execute `terraform import aws_iam_user.existing_user your_existing_user` - to import the existing user, output should diplay the following:
 
 ```
 aws_iam_user.existing_user: Import complete!
