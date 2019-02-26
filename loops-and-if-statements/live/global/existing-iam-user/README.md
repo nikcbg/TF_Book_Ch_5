@@ -45,7 +45,8 @@ Error: Error applying plan:
 
 * aws_iam_user.existing_user: 1 error(s) occurred:
 
-* aws_iam_user.existing_user: Error creating IAM User existing_user: EntityAlreadyExists: User with name existing_user already exists.
+* aws_iam_user.existing_user: Error creating IAM User existing_user: EntityAlreadyExists: 
+User with name existing_user already exists.
         status code: 409, request id: 9dfd2662-39c3-11e9-b34f-056f8d6936da
 ```
 - youo need to use `import` command to import the existing user:
