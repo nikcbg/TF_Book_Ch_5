@@ -1,6 +1,6 @@
 # Creating three new IAM users in AWS
 
-This is example Terraform code that creates three new increment IAM users in AWS. 
+This is example Terraform code that creates three new increment IAM users in AWS using `count.index` command. 
 
 -----------------------------------------------------------------------------------------------------------------------
 ### List of files in the repository:
