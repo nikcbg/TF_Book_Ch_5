@@ -29,7 +29,7 @@
 
 ------------------------------------------------------------------------------------------------------------------
 
-#### Configuration code for terraform module.
+#### Configuration code for terraform module for loops-and-if-statements folder
 
 5.[loops-and-if-statements/modules/services/webserver-cluster](https://github.com/nikcbg/TF_Book_Ch_5/tree/master/loops-and-if-statements/modules/services/webserver-cluster) - Terraform configuration code that creates webservers cluster and load balancer. This code will be used as module.
 
@@ -65,3 +65,32 @@
 
 ------------------------------------------------------------------------------------------------------------------
 
+#### Configuration code for terraform module for zero-downtime-deployment
+
+11.[zero-downtime-deployment/modules/services](https://github.com/nikcbg/TF_Book_Ch_5/tree/master/zero-downtime-deployment/modules/services/webserver-cluster) - Terraform configuration code that creates webservers cluster and load balancer. This code will be used as module. The webservers cluster is able to do a zero-downtime deployment when you update any of it's properties.
+
+----------------------------------------------------------------------------------------------------------------------
+
+#### Configuration code that creates MySQL database in AWS (production environment)
+                    
+12.[loops-and-if-statements/live/prod/data-stores/mysql](https://github.com/nikcbg/TF_Book_Ch_5/tree/master/loops-and-if-statements/live/prod/data-stores/mysql) - Terraform configuration code in prod folder that creates MySQL database which talks to webservers cluster.
+
+------------------------------------------------------------------------------------------------------------------
+
+#### Configuration code that creates webservers cluster and load balancer in AWS using a module (production environment).
+                    
+13.[loops-and-if-statements/live/prod/data-stores/mysql](https://github.com/nikcbg/TF_Book_Ch_5/tree/master/loops-and-if-statements/live/prod/data-stores/mysql) - Terraform configuration code in prod folder that uses the code in module folder to create webservers cluster and load balancer in AWS. The code in this folder will do a zero-downtime deployment whenever you change any parameters in this folder code.
+
+------------------------------------------------------------------------------------------------------------------
+
+#### Configuration code that creates MySQL database in AWS (staging environment)
+                    
+14.[zero-downtime-deployment/live/stage/data-stores/mysql](https://github.com/nikcbg/TF_Book_Ch_5/edit/master/zero-downtime-deployment/live/stage/data-stores/mysql/README.md) - Terraform configuration code in stage folder that creates MySQL database which talks to webservers cluster.
+
+------------------------------------------------------------------------------------------------------------------
+
+#### Configuration code that creates webservers cluster and load balancer in AWS using a module (staging environment).
+                    
+15.[zero-downtime-deployment/live/stage/services/webserver-cluster](https://github.com/nikcbg/TF_Book_Ch_5/edit/master/zero-downtime-deployment/live/stage/services/webserver-cluster/README.md) - Terraform configuration code in prod folder that uses the code in module folder to create webservers cluster and load balancer in AWS. The code in this folder will do a zero-downtime deployment whenever you change any parameters in this folder code.
+
+------------------------------------------------------------------------------------------------------------------
