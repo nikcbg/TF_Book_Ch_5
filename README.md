@@ -36,7 +36,7 @@
 ----------------------------------------------------------------------------------------------------------------------
 
 #### Configuration code that creates MySQL database in AWS (production environment)
-                    
+                    https://github.com/nikcbg/TF_Book_Ch_5/tree/master/zero-downtime-deployment/live/stage/data-stores/mysql
 6.[loops-and-if-statements/live/prod/data-stores/mysql](https://github.com/nikcbg/TF_Book_Ch_5/tree/master/loops-and-if-statements/live/prod/data-stores/mysql) - Terraform configuration code in prod folder that creates MySQL database which talks to webservers cluster.
 
 ------------------------------------------------------------------------------------------------------------------
