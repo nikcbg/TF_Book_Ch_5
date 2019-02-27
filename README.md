@@ -85,12 +85,12 @@
 
 #### Configuration code that creates MySQL database in AWS (staging environment)
                     
-14.[zero-downtime-deployment/live/stage/data-stores/mysql](https://github.com/nikcbg/TF_Book_Ch_5/edit/master/zero-downtime-deployment/live/stage/data-stores/mysql/README.md) - Terraform configuration code in stage folder that creates MySQL database which talks to webservers cluster.
+14.[zero-downtime-deployment/live/stage/data-stores/mysql](https://github.com/nikcbg/TF_Book_Ch_5/tree/master/zero-downtime-deployment/live/stage/data-stores/mysql) - Terraform configuration code in stage folder that creates MySQL database which talks to webservers cluster.
 
 ------------------------------------------------------------------------------------------------------------------
 
 #### Configuration code that creates webservers cluster and load balancer in AWS using a module (staging environment).
                     
-15.[zero-downtime-deployment/live/stage/services/webserver-cluster](https://github.com/nikcbg/TF_Book_Ch_5/edit/master/zero-downtime-deployment/live/stage/services/webserver-cluster/README.md) - Terraform configuration code in prod folder that uses the code in module folder to create webservers cluster and load balancer in AWS. The code in this folder will do a zero-downtime deployment whenever you change any parameters in this folder code.
+15.[zero-downtime-deployment/live/stage/services/webserver-cluster](https://github.com/nikcbg/TF_Book_Ch_5/tree/master/zero-downtime-deployment/live/stage/services/webserver-cluster) - Terraform configuration code in prod folder that uses the code in module folder to create webservers cluster and load balancer in AWS. The code in this folder will do a zero-downtime deployment whenever you change any parameters in this folder code.
 
 ------------------------------------------------------------------------------------------------------------------
