@@ -29,7 +29,7 @@
 
 ------------------------------------------------------------------------------------------------------------------
 
-#### Configuration code for terraform module for loops-and-if-statements folder
+## Configuration code for terraform module for loops-and-if-statements folder
 
 5.[loops-and-if-statements/modules/services/webserver-cluster](https://github.com/nikcbg/TF_Book_Ch_5/tree/master/loops-and-if-statements/modules/services/webserver-cluster) - Terraform configuration code that creates webservers cluster and load balancer. This code will be used as module.
 
@@ -65,7 +65,7 @@
 
 ------------------------------------------------------------------------------------------------------------------
 
-#### Configuration code for terraform module for zero-downtime-deployment
+## Configuration code for terraform module for zero-downtime-deployment
 
 11.[zero-downtime-deployment/modules/services](https://github.com/nikcbg/TF_Book_Ch_5/tree/master/zero-downtime-deployment/modules/services/webserver-cluster) - Terraform configuration code that creates webservers cluster and load balancer. This code will be used as module. The webservers cluster is able to do a zero-downtime deployment when you update any of it's properties.
 
