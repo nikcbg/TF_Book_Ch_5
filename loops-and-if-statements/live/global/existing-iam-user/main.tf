@@ -7,3 +7,4 @@ resource "aws_iam_user" "existing_user" {
   # exists so you can practice using the terraform import command
   name = "your_AWS_user_name_here"
 }
+
