@@ -5,3 +5,4 @@ provider "aws" {
 resource "aws_iam_user" "example" {
   name = "neo"
 }
+
