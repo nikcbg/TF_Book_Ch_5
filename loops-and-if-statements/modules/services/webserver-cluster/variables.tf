@@ -34,3 +34,4 @@ variable "enable_autoscaling" {
 variable "enable_new_user_data" {
   description = "If set to true, use the new User Data script"
 }
+
